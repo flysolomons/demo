@@ -1,6 +1,6 @@
 function Belama() {
     return (
-        <section className="py-16 px-0 bg-white">
+        <section className="py-12 px-0 bg-white">
             <div className="mx-auto">
                 <h2 className="text-3xl text-center font-bold text-[#212061] mb-2">Join Belama</h2>
                 <p className="text-center text-sm text-gray-600 mb-6 max-w-[1216px] mx-auto">
