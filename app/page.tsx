@@ -1,3 +1,4 @@
+import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Specials from "@/components/Specials";
 import Horizons from "@/components/Horizons";
@@ -9,12 +10,13 @@ import Footer from "@/components/Footer";
 export default function Home() {
   return (
     <>
-      <Hero/>
-      <Specials/>
-      <Horizons/>
-      <Belama/>
-      <Information/>
-      <Footer/>
+      <Header />
+      <Hero />
+      <Specials />
+      <Horizons />
+      <Belama />
+      <Information />
+      <Footer />
     </>
   );
 }
