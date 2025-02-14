@@ -4,7 +4,7 @@ function Specials() {
                 <div className="max-w-[1216px] mx-auto">
                 <h2 className="text-3xl text-center font-bold text-[#212061] mb-2">Our Specials</h2>
                 <p className="text-center text-sm text-gray-600 mb-6 max-w-[1216px] mx-auto">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    Discover our exclusive flight deals to popular destinations across the Pacific, with special rates and early bird offers available year-round
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
