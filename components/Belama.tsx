@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 function Belama() {
     return (
         <section className="py-12 px-0 bg-white">
@@ -8,9 +10,11 @@ function Belama() {
                 </p>
                 
                 <div className="relative w-full h-[480px] mb-6">
-                    <img 
+                    <Image 
                         src="/belama.jpg" 
                         alt="Belama welcome area with tropical scene and refreshments" 
+                        width={500}
+                        height={300}
                         className="w-full h-full object-cover rounded-lg"
                     />
                 </div>
