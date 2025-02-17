@@ -3,7 +3,7 @@ import {Swiper,SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
-import {Navigation, Pagination,EffectCoverflow } from 'swiper/modules';
+import {Navigation, Pagination, EffectCreative } from 'swiper/modules';
 
 
 
@@ -23,53 +23,65 @@ function Horizons() {
             {/* Horizion slide show */}
 
             <Swiper
-        effect={'carousel'}
+        effect={'creative'}
+        creativeEffect={{
+          prev: {
+            translate: ['-100%',-10,-300],
+            // rotate: [-45,-45,-45], //([rotate around the X-axis, rotate around the Y-axis, rotate around the Z-axis])
+            scale:0.5
+          },
+          next: {
+            translate: ['100%',20,-10],
+            // rotate: [45,45,45], //([rotate around the X-axis, rotate around the Y-axis, rotate around the Z-axis])
+            scale: 0.5
+          },
+        }}
         navigation={true}
         grabCursor={true}
-        centeredSlides={false}
-        slidesPerView={5}
+        centeredSlides={true}
+        slidesPerView={3}
         loop={true}
         autoplay={true}
         pagination={true}
-        modules={[EffectCoverflow, Pagination, Navigation]}
+        modules={[EffectCreative, Pagination, Navigation]}
         className="horizionSwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-1.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-2.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}} />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-3.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-4.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-5.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-6.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-7.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-8.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" />
+          <img src="https://swiperjs.com/demos/images/nature-9.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
         </SwiperSlide>
       </Swiper>
 
          
             {/* Horizion slide show end */}
             <div className="text-center mt-6">
-                    <button className="bg-[#212061] text-white px-6 py-2 w-[192px] h-[48px] rounded-full font-medium hover:bg-opacity-90 transition-colors">
-                        Join Now
-                    </button>
-                </div>
+                <button className="bg-[#212061] text-white px-6 py-2 w-[192px] h-[48px] rounded-full font-medium hover:bg-opacity-90 transition-colors">
+                    Explore
+                </button>
+            </div>
         </section>
         
         </>
