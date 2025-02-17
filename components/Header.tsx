@@ -7,7 +7,7 @@ function Header() {
     const [isWhiteHeader, setIsWhiteHeader] = useState(false);
     const [isAtTop, setIsAtTop] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
-    const [_, setIsScrollingUp] = useState(true);
+    const [isScrollingUp, setIsScrollingUp] = useState(true);
 
     useEffect(() => {
         const handleScroll = () => {
@@ -22,11 +22,11 @@ function Header() {
             setIsAtTop(isTop);
 
             // Logic for white header
-            if (isScrollUp && currentScrollY > 100) {
+            if (isScrollingUp && currentScrollY > 100) {
                 setIsWhiteHeader(true);
             } 
             // Only hide white header when scrolling down OR at top
-            else if (!isScrollUp || isTop) {
+            else if (!isScrollingUp|| isTop) {
                 setIsWhiteHeader(false);
             }
 
