@@ -4,6 +4,7 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import {Navigation, Pagination, EffectCreative } from 'swiper/modules';
+import Image from 'next/image';
 
 
 
@@ -47,31 +48,85 @@ function Horizons() {
         className="horizionSwiper"
       >
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-1.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-1.jpg"
+            alt="Nature 1"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-2.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}} />
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-2.jpg"
+            alt="Nature 2"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-3.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-3.jpg"
+            alt="Nature 3"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-4.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-4.jpg"
+            alt="Nature 4"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-5.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-5.jpg"
+            alt="Nature 5"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-6.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-6.jpg"
+            alt="Nature 6"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-7.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-7.jpg"
+            alt="Nature 7"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-8.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-8.jpg"
+            alt="Nature 8"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
         <SwiperSlide>
-          <img src="https://swiperjs.com/demos/images/nature-9.jpg" style={{ borderRadius: 15 + 'px',width:'600px',height:'400px'}}/>
+          <Image 
+            src="https://swiperjs.com/demos/images/nature-9.jpg"
+            alt="Nature 9"
+            width={600}
+            height={400}
+            style={{ borderRadius: 15 + 'px' }}
+          />
         </SwiperSlide>
       </Swiper>
 

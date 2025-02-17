@@ -7,7 +7,7 @@ function Header() {
     const [isWhiteHeader, setIsWhiteHeader] = useState(false);
     const [isAtTop, setIsAtTop] = useState(true);
     const [lastScrollY, setLastScrollY] = useState(0);
-    const [isScrollingUp, setIsScrollingUp] = useState(false);
+    const [_, setIsScrollingUp] = useState(true);
 
     useEffect(() => {
         const handleScroll = () => {
