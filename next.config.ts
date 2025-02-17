@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',  // Required for static site generation
-  basePath: '/demo',
+  basePath: process.env.NODE_ENV === 'production' ? '/demo' : '',
   images: {
     unoptimized: true, // Required for static export
   },
