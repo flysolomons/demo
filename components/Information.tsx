@@ -46,8 +46,8 @@ function Information() {
                         <span className="text-2xl">{card.icon}</span>
                         <h2 className="text-xl font-bold text-[#1a1a4b]">{card.title}</h2>
                     </div>
-                    <p className="text-gray-700 mb-4">{card.description}</p>
-                    <a href="#" className="text-[#5452C6] hover:text-purple-800">
+                    <p className="text-gray-700 text-sm mb-4">{card.description}</p>
+                    <a href="#" className="text-[#5452C6] text-sm hover:text-purple-800">
                         Find out more
                     </a>
                 </div>

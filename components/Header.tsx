@@ -111,7 +111,7 @@ function Header() {
                 <div className="max-w-[1216px] mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center">
                         <Image
-                            src="/logo.png"
+                            src="/logo.svg"
                             alt="Solomon Airlines Logo"
                             width={150}
                             height={40}

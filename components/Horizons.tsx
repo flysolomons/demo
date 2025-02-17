@@ -78,10 +78,10 @@ function Horizons() {
          
             {/* Horizion slide show end */}
             <div className="text-center mt-6">
-                <button className="bg-[#212061] text-white px-6 py-2 w-[192px] h-[48px] rounded-full font-medium hover:bg-opacity-90 transition-colors">
-                    Explore
-                </button>
-            </div>
+                    <button className="bg-[#212061] text-white px-6 py-2 w-[192px] h-[48px] rounded-full font-medium hover:bg-opacity-90 transition-colors">
+                        Explore
+                    </button>
+                </div>
         </section>
         
         </>
