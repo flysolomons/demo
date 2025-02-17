@@ -35,7 +35,7 @@ function Header() {
 
         window.addEventListener('scroll', handleScroll, { passive: true });
         return () => window.removeEventListener('scroll', handleScroll);
-    }, [lastScrollY]);
+    }, [lastScrollY, isScrollingUp]);
 
     // If at top, render transparent header
     if (isAtTop) {
