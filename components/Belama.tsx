@@ -21,7 +21,7 @@ function Belama() {
 
                 <div className="text-center">
                     <button className="bg-[#212061] text-white px-6 py-2 w-[192px] h-[48px] rounded-full font-medium hover:bg-opacity-90 transition-colors">
-                        Join Now
+                        Join Now 
                     </button>
                 </div>
             </div>
