@@ -11,7 +11,7 @@ function Belama() {
                 
                 <div className="relative w-full h-[480px] mb-6">
                     <Image 
-                        src="/belama.jpg" 
+                        src={`${nextConfig.basePath}/belama.jpg`}
                         alt="Belama welcome area with tropical scene and refreshments" 
                         width={500}
                         height={300}
