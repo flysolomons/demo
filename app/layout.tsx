@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 // import { Geist, Geist_Mono } from "next/font/google";
-import { Inter } from "next/font/google";
+import { Inter, Rubik } from "next/font/google";
 import "./globals.css";
 
 // const geistSans = Geist({
@@ -18,6 +18,11 @@ const inter = Inter({
   subsets: ["latin"],
 })
 
+const rubik = Rubik({
+  variable: '--font-rubik',
+  subsets: ["latin"],
+})
+
 export const metadata: Metadata = {
   title: "Book Flights | Solomon Airlines",
 };
@@ -31,7 +36,7 @@ export default function RootLayout({
     <html lang="en">
       <body
         // className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-        className={`${inter.variable} antialiased`}
+        className={`${inter.variable} ${rubik.variable} antialiased`}
       >
         {children}
       </body>
