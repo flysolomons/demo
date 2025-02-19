@@ -81,7 +81,7 @@ function Footer() {
                     <p>Solomon Airlines. All Rights Reserved</p>
                 </div>
             </div>
-            <div className="h-[86px] w-full bg-[url('/design.svg')] bg-repeat-x mt-8 [background-size:422px_86px]" 
+            <div className="h-[86px] w-full bg-[url('./design.svg')] bg-repeat-x mt-8 [background-size:422px_86px]" 
                  aria-hidden="true">
             </div>
         </footer>

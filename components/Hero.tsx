@@ -10,14 +10,14 @@ function Hero() {
                     loop
                     playsInline
                     className="w-full h-full object-cover"
-                    poster="/hero3.jpg"
+                    poster="./hero3.jpg"
                 >
-                    {/* <source src="/hero.mp4" type="video/mp4" /> */}
+                    {/* <source src="./hero.mp4" type="video/mp4" /> */}
                     {/* Fallback for browsers that don't support video */}
                     <div 
                     className="absolute inset-0 bg-cover bg-center bg-no-repeat"
                     style={{
-                        backgroundImage: "url('/hero3.jpg')"
+                        backgroundImage: "url('./hero3.jpg')"
                     }}
                     />
                 </video>

@@ -13,7 +13,7 @@ function Specials() {
                 <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
-                            src="/brisbane.jpg" 
+                            src="./brisbane.jpg" 
                             alt="Brisbane" 
                             width={500} 
                             height={300}
@@ -32,7 +32,7 @@ function Specials() {
                     <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
-                            src="/auckland.jpg" 
+                            src="./auckland.jpg" 
                             alt="Auckland" 
                             width={500} 
                             height={300}
@@ -51,7 +51,7 @@ function Specials() {
                     <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
-                            src="/port-vila.jpg" 
+                            src="./port-vila.jpg" 
                             alt="Port Vila" 
                             width={500} 
                             height={300}
@@ -70,7 +70,7 @@ function Specials() {
                     <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
-                            src="/santo.jpg" 
+                            src="./santo.jpg" 
                             alt="Santo" 
                             width={500} 
                             height={300}
