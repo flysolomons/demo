@@ -1,6 +1,8 @@
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 function Belama() {
+    console.log('NODE_ENV:', process.env.NODE_ENV);
     return (
         <section className="py-12 px-0 bg-white">
             <div className="mx-auto">
@@ -11,7 +13,7 @@ function Belama() {
                 
                 <div className="relative w-full h-[480px] mb-6">
                     <Image 
-                        src={`${process.env.basePath}/belama.jpg`}
+                        src={`${process.env.PUBLIC_URL}/belama.jpg`}
                         alt="Belama welcome area with tropical scene and refreshments" 
                         width={500}
                         height={300}
