@@ -1,4 +1,5 @@
 function Footer() {
+    const isProd = process.env.NODE_ENV === 'production';
     return (
         <footer className="bg-[#1A194D] text-white pt-8">
             <div className="container mx-auto px-4 max-w-[1216px]">
@@ -81,9 +82,13 @@ function Footer() {
                     <p>Solomon Airlines. All Rights Reserved</p>
                 </div>
             </div>
-            <div className="h-[86px] w-full bg-[url('/design.svg')] bg-repeat-x mt-8 [background-size:422px_86px]" 
-                 aria-hidden="true">
-            </div>
+            {isProd ? (
+                <div className="h-[86px] w-full bg-[url('/demo/design.svg')] bg-repeat-x mt-8 [background-size:422px_86px]" aria-hidden="true">
+                </div>
+            ) : (
+                <div className="h-[86px] w-full bg-[url('/design.svg')] bg-repeat-x mt-8 [background-size:422px_86px]" aria-hidden="true">
+                </div>
+            )}
         </footer>
     );
 }

@@ -51,7 +51,7 @@ function Header() {
                             className="h-[24px] w-auto"
                         />
                     </div>
-                    <nav className="flex items-center space-x-8 justify-between">
+                    <nav className="flex items-center space-x-8 justify-between font-sans">
                         {["Explore", "Experience", "Belama"].map((item) => (
                             <Link
                                 key={item}
@@ -118,7 +118,7 @@ function Header() {
                             className="h-[24px] w-auto"
                         />
                     </div>
-                    <nav className="flex items-center space-x-8 justify-between">
+                    <nav className="flex items-center space-x-8 justify-between font-sans">
                         {["Explore", "Experience", "Belama"].map((item) => (
                             <Link
                                 key={item}
@@ -173,14 +173,14 @@ function Header() {
                 <div className="max-w-[1216px] mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center">
                         <Image
-                            src="/logo.png"
+                            src="./logo.svg"
                             alt="Solomon Airlines Logo"
                             width={150}
                             height={40}
                             className="h-[24px] w-auto"
                         />
                     </div>
-                    <nav className="flex items-center space-x-8 justify-between">
+                    <nav className="flex items-center space-x-8 justify-between font-sans">
                         {["Explore", "Experience", "Belama"].map((item) => (
                             <Link
                                 key={item}
