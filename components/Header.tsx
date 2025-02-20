@@ -48,7 +48,7 @@ function Header() {
                 onMouseEnter={() => setIsHovered(true)} 
                 onMouseLeave={() => setIsHovered(false)}
             >
-                <div className="max-w-[1216px] mx-auto flex items-center justify-between py-4">
+                <div className="max-w-[1128px] mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center">
                         <Image
                             src={isHovered ? "./logo.svg" : "./logo-white.svg"}
@@ -115,7 +115,7 @@ function Header() {
             <header className={`w-full absolute top-0 z-50 bg-transparent transition-opacity duration-1000 ease-in-out ${
                 isWhiteHeader ? 'opacity-0 pointer-events-none' : 'opacity-100'
             }`}>
-                <div className="max-w-[1216px] mx-auto flex items-center justify-between py-4">
+                <div className="max-w-[1128px] mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center">
                         <Image
                             src={isHovered ? "./logo-white.svg" : "./logo.svg"}
@@ -177,7 +177,7 @@ function Header() {
             <header className={`w-full fixed top-0 z-50 transition-all duration-500 ease-in-out ${
                 isWhiteHeader ? 'opacity-100 translate-y-0 bg-white shadow-sm rounded-b-lg' : 'opacity-0 pointer-events-none'
             }`}>
-                <div className="max-w-[1216px] mx-auto flex items-center justify-between py-4">
+                <div className="max-w-[1128px] mx-auto flex items-center justify-between py-4">
                     <div className="flex items-center">
                         <Image
                             src="./logo.svg"

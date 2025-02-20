@@ -16,7 +16,7 @@ function Horizons() {
         <>
          <section className="bg-[#F2F2FF] h-auto py-12">
            <h2 className="text-[30px] text-center font-bold text-[#212061] mb-2">Discover New Horizions</h2>
-           <p className="text-center text-gray-600 mb-4 text-sm max-w-[1216px] mx-auto">
+           <p className="text-center text-gray-600 mb-4 text-sm max-w-[1128px] mx-auto">
            Embark on extraordinary journeys to breathtaking destinations. From pristine beaches to majestic mountains, 
              let us guide you to your next unforgettable adventure.
             </p>

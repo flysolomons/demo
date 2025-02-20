@@ -2,7 +2,7 @@ function Footer() {
     const isProd = process.env.NODE_ENV === 'production';
     return (
         <footer className="bg-[#1A194D] text-white pt-8">
-            <div className="container mx-auto px-4 max-w-[1216px]">
+            <div className="container mx-auto px-4 max-w-[1128px]">
                 <div className="grid grid-cols-1 md:grid-cols-6 gap-8">
                     {/* Services Column */}
                     <div>

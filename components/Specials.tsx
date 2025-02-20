@@ -3,9 +3,9 @@ import Image from 'next/image';
 function Specials() {
     return (
         <section className="py-12 px-0 bg-white">
-                <div className="max-w-[1216px] mx-auto">
+                <div className="max-w-[1128px] mx-auto">
                 <h2 className="text-3xl text-center font-bold text-[#212061] mb-2">Our Specials</h2>
-                <p className="text-center text-sm text-gray-600 mb-6 max-w-[1216px] mx-auto">
+                <p className="text-center text-sm text-gray-600 mb-6 max-w-[1128px] mx-auto">
                     Discover our exclusive flight deals to popular destinations across the Pacific, with special rates and early bird offers available year-round
                 </p>
                 

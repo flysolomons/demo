@@ -34,9 +34,9 @@ function Information() {
 
     return (
         <section className="py-12 px-0 bg-[#F2F2FF]">
-        <div className="max-w-[1216px] mx-auto">
+        <div className="max-w-[1128px] mx-auto">
         <h2 className="text-3xl text-center font-bold text-[#212061] mb-2">All You Need</h2>
-        <p className="text-center text-sm text-gray-600 mb-6 max-w-[1216px] mx-auto">
+        <p className="text-center text-sm text-gray-600 mb-6 max-w-[1128px] mx-auto">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">

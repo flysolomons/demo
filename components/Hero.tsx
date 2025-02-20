@@ -29,7 +29,7 @@ function Hero() {
                         <h1 className="text-5xl font-bold mb-4">Connecting the Hapi Isles</h1>
                     </div>
                     <div className="relative flex flex-col items-center pt-8 h-1/2 text-white">
-                        <div className="w-[1216px] bg-white rounded-[32px] shadow-lg">
+                        <div className="w-[1128px] bg-white rounded-[32px] shadow-lg">
                             <div className="flex border-b">
                                 <div className="flex border-b-2 border-b-[#212061] px-4 py-3 h-[48px] w-[165px]">
                                     <button className="text-[#212061] text-sm font-semibold w-[165px] text-center">
