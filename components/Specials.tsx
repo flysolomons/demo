@@ -10,7 +10,7 @@ function Specials() {
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
+                <div className="relative rounded-[20px] overflow-hidden w-[264px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
                             src="./brisbane.jpg" 
@@ -29,7 +29,7 @@ function Specials() {
                         </div>
                     </div>
 
-                    <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
+                    <div className="relative rounded-[20px] overflow-hidden w-[264px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
                             src="./auckland.jpg" 
@@ -48,7 +48,7 @@ function Specials() {
                         </div>
                     </div>
 
-                    <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
+                    <div className="relative rounded-[20px] overflow-hidden w-[264px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
                             src="./port-vila.jpg" 
@@ -67,7 +67,7 @@ function Specials() {
                         </div>
                     </div>
 
-                    <div className="relative rounded-[20px] overflow-hidden w-[280px] h-[256px]">
+                    <div className="relative rounded-[20px] overflow-hidden w-[264px] h-[256px]">
                         <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent z-10"></div>
                         <Image 
                             src="./santo.jpg" 
